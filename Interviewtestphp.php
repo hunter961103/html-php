@@ -33,15 +33,15 @@
     $split_number = str_split($number);
     sort($split_number);
     $number = implode($split_number);
-    $result = $uppercase.$lowercase.$number.$others;
+    $output = $uppercase.$lowercase.$number.$others;
 ?>
 <body>
     <form method="post">
-	    <label>Input here: </label>
+	<label>Input here: </label>
         <input type="text" name="input">
-	    <input type="submit" value="Submit">
+	<input type="submit" value="Submit">
         <br>
-        <label><?php if($result != "") {echo "Result: ".$result;} ?></label>
+        <label><?php if($output != "") {echo "Output: ".$result;} ?></label>
     </form>
 </body>
 </html>

@@ -37,9 +37,9 @@
 </script>
 <body>
     <form method="post">
-	    <label>Input here: </label>
+	<label>Input here: </label>
         <input type="text" id="input">
-	    <input type="button" value="Submit "onclick="sortInput()">
+	<input type="button" value="Submit "onclick="sortInput()">
         <br>
         <label id="output"></label>
     </form>
